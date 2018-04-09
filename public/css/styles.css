@@ -1,0 +1,78 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+#money_up
+{
+    text-decoration: none;
+}
+#money_up img
+{
+    display: inline-block;
+    width: 2%;
+    vertical-align: text-bottom;
+}
+
+.btn
+{
+    background-color: rgba(81, 134, 231, 0.9);
+    color: white;
+}
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#logotip
+{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    padding-bottom: 30px;
+}
+
+#logotip h1
+{
+    font-size: 100px;
+    text-shadow: 2px 2px 20px rgba(20,20,20,0.7);
+}
+
+#top
+{
+    /* surround with whitespace */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#top .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
